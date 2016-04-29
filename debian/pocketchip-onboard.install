@@ -1,2 +1,6 @@
 bin/* /usr/bin/
 pocketchip-onboard/* /usr/share/pocketchip-onboard/
+pico8-onboard/* /usr/share/pico8-onboard/
+sunvox-onboard/* /usr/share/sunvox-onboard/
+
+

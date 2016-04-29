@@ -10,4 +10,4 @@ Package: pocketchip-onboard
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: PocketCHIP onboarding display
- A series of images to get the user more familiar with PocketCHIP's interface.
+ A series of images to get the user more familiar with PocketCHIP's interface. Also includes images for pico8 and sunvox
