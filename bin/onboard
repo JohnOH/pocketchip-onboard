@@ -3,17 +3,17 @@
 # usage: ./onboard.sh <FLAG_FILE> <IMAGE_DIR>
 # example: ./onboard.sh ~/.config/pocketchip_onboarding ~/Pictures/
 # This can be used for a general onboarding, or before running another script, such as pico8
-​
+
 # The user can choose to disable this by pressing 0 inside the viewer.
 # A file (FLAG_FILE below) is used to keep track of whether the onboarding should be shown or not.
-​
+
 FLAG_FILE="$1" #~/.config/pocketchip_onboarding # Location of flag file that contains 1 to show onboarding, 0 to not show it.
 IMAGE_DIR="$2" #~/Pictures # Location of .png image files
-​
+
 if [[ ! -f "$FLAG_FILE" ]]; then # check to see if the flag file exists.
 	echo "1" >"$FLAG_FILE" # doesn't exist, so create it with contents "1"
 fi
-​
+
 if [ $(<"$FLAG_FILE") == "1" ]; then # is flag set?
 	pushd "$IMAGE_DIR" > /dev/null	# go to image directory
 	feh --cycle-once -S name -A "echo \"0\" >\"$FLAG_FILE\"; killall feh" # run feh, sort images by name. Cycle once.  If 0 is pressed (-A), write 0 to the flag file and exit
