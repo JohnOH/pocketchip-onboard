@@ -15,7 +15,6 @@ if [[ ! -f "$FLAG_FILE" ]]; then # check to see if the flag file exists.
 fi
 
 if [ $(<"$FLAG_FILE") == "1" ]; then # is flag set?
-	pushd "$IMAGE_DIR" > /dev/null	# go to image directory
-	feh --cycle-once -S name -A "echo \"0\" >\"$FLAG_FILE\"; killall feh" # run feh, sort images by name. Cycle once.  If 0 is pressed (-A), write 0 to the flag file and exit
-	popd > /dev/null
+	pushd $IMAGE_DIR # go to image directory
+	ahoy "$1" * # run feh, sort images by name. Cycle once.  If 0 is pressed (-A), write 0 to the flag file and exit
 fi
