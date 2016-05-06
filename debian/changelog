@@ -1,3 +1,9 @@
+pocketchip-onboard (0.2) unstable; urgency=low
+
+  * Added new set of images for pico8 onboarding.
+
+ -- Ben Young <software@nextthing.co>  Fri, 06 May 2016 19:24:35 -0700
+
 pocketchip-onboard (0.1) unstable; urgency=low
 
   * Initial Release.
