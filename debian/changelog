@@ -1,3 +1,9 @@
+pocketchip-onboard (0.3) unstable; urgency=low
+
+  * Added new set of images for sunvox onboarding.
+
+ -- Ben Young <software@nextthing.co>  Mon, 09 May 2016 19:11:35 -0700
+
 pocketchip-onboard (0.2) unstable; urgency=low
 
   * Added new set of images for pico8 onboarding.
