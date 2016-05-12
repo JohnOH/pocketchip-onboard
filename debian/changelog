@@ -1,3 +1,9 @@
+pocketchip-onboard (0.5) unstable; urgency=low
+
+  * Added final versions of all images for Gold Master
+
+ -- Ben Young <software@nextthing.co>  Mon, 11 May 2016 18:11:35 -0700
+
 pocketchip-onboard (0.4) unstable; urgency=low
 
   * Added final versions of all images for RC testing
