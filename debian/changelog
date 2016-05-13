@@ -1,3 +1,9 @@
+pocketchip-onboard (0.7) unstable; urgency=low
+
+  * Images scaled to fit PC native res
+
+ -- Ben Young <software@nextthing.co>  Mon, 12 May 2016 23:29:35 -0700
+
 pocketchip-onboard (0.6) unstable; urgency=low
 
   * Added final versions of all images for Gold Master[again]
