@@ -1,3 +1,9 @@
+pocketchip-onboard (0.8) unstable; urgency=low
+
+  * Drop final slide from each presentation.
+
+ -- Ben Young <software@nextthing.co>  Mon, 13 May 2016 00:11:35 -0700
+
 pocketchip-onboard (0.7) unstable; urgency=low
 
   * Images scaled to fit PC native res
